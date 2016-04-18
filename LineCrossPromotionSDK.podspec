@@ -18,6 +18,7 @@ LICENSE
 s.platform = :ios, '6.0'
 s.author       = { "wonje,song" => "ricky@igaworks.com" }
 s.source       = { :git => "https://github.com/IGAWorksDev/LineCrossPromotionSDK-iOS.git", :tag => "#{s.version}" }
+s.resources = "LineCrossPromotionSDK.bundle"
 s.ios.vendored_frameworks = 'LineCrossPromotionSDK.framework'
 s.frameworks = 'iAd', 'CoreTelephony', 'SystemConfiguration', 'UIKit', 'Security', 'CoreGraphics', 'CoreText', 'MobileCoreServices', 'Foundation', 'ImageIO', 'MessageUI', 'MediaPlayer', 'AdSupport', 'AVKit', 'AVFoundation', 'CoreMedia'
 s.libraries = 'xml2'
