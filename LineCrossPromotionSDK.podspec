@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name         = "LineCrossPromotionSDK"
-s.version      = "1.2.7"
+s.version      = "1.2.8"
 s.summary      = "LineCrossPromotionSDK.framework"
 s.homepage     = "https://github.com/IGAWorksDev/LineCrossPromotionSDK-iOS"
 
